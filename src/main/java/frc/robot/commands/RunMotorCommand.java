@@ -35,8 +35,8 @@ public class RunMotorCommand extends Command {
   // Called every time the scheduler runs while the command is scheduled.
   @Override
   public void execute() {
-    motor1.move(0.5);
-    motor2.move(0.5);
+    motor1.move(1);
+    motor2.move(1);
   }
 
   // Called once the command ends or is interrupted.
