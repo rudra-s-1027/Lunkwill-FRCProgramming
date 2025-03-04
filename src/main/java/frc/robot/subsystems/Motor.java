@@ -15,7 +15,7 @@ import com.revrobotics.spark.config.SparkBaseConfig.IdleMode;
 import edu.wpi.first.wpilibj2.command.SubsystemBase;
 
 public class Motor extends SubsystemBase {
-  private final SparkMax motor; // Lunkwill uses SparkMax, WonkoTheSane uses SparkFlex
+  private final SparkMax motor; // Lunkwill uses SparkMax
   private final int ID;
   SparkMaxConfig config = new SparkMaxConfig();
   RelativeEncoder encoder;
